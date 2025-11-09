@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data files (large datasets)
+data/raw/**/*.csv
+data/raw/**/*.json
+data/raw/**/*.txt
+data/raw/**/*.parquet
+data/external/**/*
+!data/external/.gitkeep
+*.zip
+*.tar.gz
+*.h5
+*.pkl
+*.pickle
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+results/models/**/*.pkl
+results/models/**/*.h5
+results/models/**/*.pt
+results/models/**/*.pth
+*.model
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Results (keep structure)
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.pdf
+results/tables/*.csv
+results/tables/*.xlsx
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!results/models/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation builds
+docs/_build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
